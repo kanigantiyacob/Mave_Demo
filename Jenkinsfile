@@ -10,6 +10,8 @@ stage('ggh') {
 stage('hhh') {
 sh label: '', script: 'echo "hello raju"'
 }
-
+stage('hhh') {
+sh label: '', script: 'echo "hello"'
+}
 }
 
