@@ -100,8 +100,12 @@
         <plugins>
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.2.11.v20150529</version>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.4</version>
+                <configuration>
+                  <fork>true</fork>
+                    <executable>C:/Program Files/Java/jdk1.8.0_321/javac</executable>
+                </configuration>
                 <configuration>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <webApp>
